@@ -15,14 +15,14 @@ else:
     print(" Wenn Sie Premium-Mitglied sind, geben Sie 'p' ein.")
     print(" Wenn Sie Basis-Mitglied sind, geben Sie 'b' ein.")
     print(" Wenn Sie kein Mitglied sind, drücken Sie eine beliebige andere Taste. ")
-    antwort_rabatt = input();
+    antwort_rabatt = input()
     if antwort_rabatt == "p":
         print(" ### Eintritt Premium-Mitglied ### ")
         print(" Preis: ", preis_premium, " Euro ")
-        if antwort_rabatt == "b":
-            print(" ### Eintritt Basis-Mitglied ### ")
-            print(" Preis: ", preis_basis, " Euro ")
-        else:
-            print(" ### Eintritt Erwachsene (voller Preis) ### ")
-            print(" Preis: ", preis_erwachsene, " Euro")
+    if antwort_rabatt == "b":
+        print(" ### Eintritt Basis-Mitglied ### ")
+        print(" Preis: ", preis_basis, " Euro ")
+    else:
+        print(" ### Eintritt Erwachsene (voller Preis) ### ")
+        print(" Preis: ", preis_erwachsene, " Euro")
 
