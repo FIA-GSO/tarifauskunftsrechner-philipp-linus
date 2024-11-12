@@ -87,3 +87,6 @@ print("*  O O  *")
 print("*   ^   *")
 print(" * '-' * ")
 print("  *****  ")
+
+
+y
